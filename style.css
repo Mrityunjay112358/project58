@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background: linear-gradient(#de371e 0%, #f9e00b 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #720cf1;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: crimson;
+}
+
+#profile {
+    height: 200px;
+    display: table;
+}
+
+#bio {
+    height: 200px;
+}
+
+.imageclass {
+    width: 20%;
+    bottom: 50px;
+    border-radius: 40px;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    top: 1px;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+    color: rebeccapurple;
+    background: linear-gradient(#de880e 0%, #f9e66b 100%);
+}
+
+.links {
+    float:left;
+    font-size: 20px;
+    font-family: 'Henny Penny', cursive;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background-color: azure;
+}
+
+.inner {
+    vertical-align:bottom;
+    position: relative;
+    display: table-cell;
+}
